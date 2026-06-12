@@ -2,11 +2,11 @@
 
 A console-based Student Management System built in **C++**, designed to efficiently manage student records using **file handling** and **menu-driven operations**.
 
-## 📌 Overview
+ Overview
 
 This project allows users to add, update, delete, search, sort, and display student records, with all data persistently stored in a local file (`students.dat`).
 
-## ✨ Features
+ Features
 
 - **Add Student** — Add new records with duplicate ID validation
 - **Display All** — View all records in a clean tabular format
@@ -16,12 +16,12 @@ This project allows users to add, update, delete, search, sort, and display stud
 - **Sort & Display** — Sort by Name, CGPA, or ID
 - **Persistent Storage** — Data is saved to a file and reloaded automatically
 
-## 🛠️ Tech Stack
+Tech Stack
 
 - **Language:** C++ (C++11)
 - **Concepts Used:** File Handling (fstream), STL (vector, algorithm), Lambda Functions, Structs
 
-## 🚀 How to Compile & Run
+How to Compile & Run
 
 ```bash
 g++ -std=c++11 StudentManagementSystem.cpp -o sms
@@ -33,7 +33,7 @@ On Windows:
 sms.exe
 ```
 
-## 📂 File Structure
+ File Structure
 
 ```
 ├── StudentManagementSystem.cpp   # Main source code
@@ -41,7 +41,7 @@ sms.exe
 └── README.md                     # Project documentation
 ```
 
-## 📋 Sample Menu
+Sample Menu
 
 ```
 ╔══════════════════════════════╗
@@ -57,10 +57,10 @@ sms.exe
 ╚══════════════════════════════╝
 ```
 
-## 🎯 Expected Outcome
+Expected Outcome
 
 A functional application that allows users to add, update, delete, and display student information with persistent data storage for reliable record management.
 
-## 👤 Author
+Author
 
 Developed as part of the Thiranex Internship Program.
